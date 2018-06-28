@@ -1,0 +1,26 @@
+{
+  "name": "@dwcore/dws2",
+  "version": "0.1.1",
+  "description": "Library for avoiding subclassing issues while using Node.js streams and dwStreams within dWeb-based networks.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "dws2.js",
+  "scripts": {
+    "test": "node test/basic-test.js"
+  },
+  "dependencies": {
+    "readable-stream": "~1.1.9",
+    "xtend": "~2.1.1"
+  },
+  "devDependencies": {
+    "bl": "~0.4.1",
+    "stream-spigot": "~2.1.2",
+    "tape": "~1.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
